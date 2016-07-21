@@ -22,4 +22,6 @@ group :development do
 gem 'better_errors'
 gem 'quiet_assets'
 gem 'rails_layout'
+gem 'capistrano-rails', '~> 1.1'
+gem 'capistrano-rvm'
 end
