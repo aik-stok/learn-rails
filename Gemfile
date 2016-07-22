@@ -25,3 +25,7 @@ gem 'rails_layout'
 gem 'capistrano-rails', '~> 1.1'
 gem 'capistrano-rvm'
 end
+group :production do
+gem 'pg'
+gem 'rails_12factor'
+end
